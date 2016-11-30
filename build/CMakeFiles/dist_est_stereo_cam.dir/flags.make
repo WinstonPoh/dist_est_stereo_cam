@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev/opencv -isystem /opt/ros/kinetic/include/opencv-3.1.0-dev 
 
